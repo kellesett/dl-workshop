@@ -17,18 +17,33 @@ This course covers:
 
 ## 🧪 Laboratory Works
 
-### Lab 1: Introduction to NN
+### Lab 1: NN implementation on numpy
+- Understanding backgrounds of automatic differentiation
+- Simple feedforward network implementation
+- **Key Concepts:** Autograd, Optimizers, Loss functions
 
-## Lab 1.5: 
+### Lab 1.5: Image classification with CNN
+- CIFAR-10 classification
+- Logging with `TensorBoard`
 
-### Lab 2:
+### Lab 2: CNN implementation for image segmentation
+- UNet & LinkNet implementations
+- Logging with `WanDB`
+- **Techniques:** Data augmentation, Logging, 
 
-### Lab 2.5: 
+### Lab 3: RNN implementation for autoregressive generation
+- Word-level language modeling
+- LSTM/GRU implementations
+- RNN dropouts implementations
+- Text generation task
+- Decoding techniques implementations (topk, greedy, beamsearch)
 
-### Lab 3: 
-
-### Lab 3.5: Dataset generation and training with transformers
+### Lab 3.5: NER dataset generation and training with `transformers`
+- Working with different tokenizers
+- Qwen for dataset markup
+- Training BERT for token classification
 
 ### Lab 4: Conformer for audio denoising
-
-## 🗂 Repository Structure
+- Noised audio dataset creation
+- Building conformer almost from scratch
+- Getting familiar with fourier transform
